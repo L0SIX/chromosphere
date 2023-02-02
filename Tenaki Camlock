@@ -1,3 +1,18 @@
+📋
+Rayfield:Notify({
+   Title = "Camlock Loaded",
+   Content = "made by losix#7795",
+   Duration = 6.5,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
 getgenv().AimingSettings = {
     Aimbot = {
         Radius = 45,

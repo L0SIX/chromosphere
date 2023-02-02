@@ -1,0 +1,8 @@
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:wait()
+local backpack = player.Backpack
+
+local accessory = Instance.new("Accessory")
+accessory.Name = "439945661"
+accessory.Parent = backpack
+character.Humanoid:Equip(accessory)
